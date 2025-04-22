@@ -29,6 +29,18 @@ enemy:
   broadcast: True
   maxEnemies: -1 
 
+# Enemy Presence Alerts
+enemyAlerts:
+  enabled: true # Toggle the enemy presence alerts system
+  alertCooldown: 300 # Cooldown between repeated alerts (in seconds)
+  alertBroadcast: true # Broadcast the alert to the town members
+  message: "&c&lALERT<n>&7Enenmy is in your claim
+
+warSystem:
+  enabled: true # Toggle to enable or disable the war system
+  automaticWarOnEnemy: true # Automatically declare war when two towns become enemies
+  warDuration: 86400 # Default war duration in seconds (24 hours). If you want unlimited, set it to -1
+  
 upgrades:
   # Healing Fireplace Upgrade
   healingFireplace:
