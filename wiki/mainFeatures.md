@@ -85,6 +85,11 @@ A plugin designed to enhance town management and interaction in Minecraft server
 | `/town promote <player>` | Promote a member’s role                      | `townpal.promote`          |
 | `/town demote <player>`  | Demote a member’s role                       | `townpal.demote`           |
 | `/town kick <player>`    | Remove a player from your town               | `townpal.kick`             |
+| `/town war declare <town>`  | Declare war on another town.                                  | `/t war declare`  |
+| `/town war truce <town>`    | Declare a truce with a town, ending the war early.            | `/t war truce`    |
+| `/town war surrender`       | Surrender to an enemy town, ending the war immediately.       | `/t war giveup`   |
+| `/town war status`          | Check the current status of an ongoing war.                   | `/t war status`   |
+| `/town war timeleft`        | View how much time is left before the war ends.               | `/t war timeleft` |
 
 ## 🔧 Admin Commands
 
@@ -105,6 +110,7 @@ A plugin designed to enhance town management and interaction in Minecraft server
 | `/town admin promote <player>`           | Promote a player regardless of role restrictions                            | `townpal.admin.promote`      |
 | `/town admin demote <player>`            | Demote a player regardless of role restrictions                             | `townpal.admin.demote`       |
 | `/town reload`                     | Reload the plugin and all configurations                                    | `townpal.admin.reload`       |
+| `/town war forceend <town>`    | Force the end of the war with a specific town.                    | `/t war forceend`    |
 
 ## ⛔ Placeholders
 
