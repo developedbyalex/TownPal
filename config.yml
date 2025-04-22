@@ -28,3 +28,33 @@ enemy:
   enabled: True
   broadcast: True
   maxEnemies: -1 
+
+upgrades:
+  # Healing Fireplace Upgrade
+  healingFireplace:
+    enabled: true # Toggle the upgrade
+    cost: 1000 # The cost of unlocking the upgrade
+    healingRadius: 5 # Radius of healing effect around fireplace
+    healingAmount: 2 # Amount of regeneration
+    particleEffect: true # Toggle particles to show when players are healing
+    particle: "HEART" # The particle
+
+  # Town Bank Interest Upgrade
+  townBankInterest:
+    enabled: true # Toggle the upgrade
+    cost: 500 # The cost of unlocking the upgrade
+    interestRate: 0.02 # Interest rate (2% per day)
+    interestInterval: 86400 # Time interval for interest to be applied (in seconds)
+
+  # Member Upgrade
+  memberUpgrade:
+    enabled: true # Toggle the upgrade
+    cost: 200 # Cost of upgrading
+    membersIncrease: 15 # The amount it will be upgraded to
+
+  # Town Warps Upgrade
+  townWarps:
+    enabled: true # Toggle the upgrade
+    cost: 300 # Cost of unlocking warps
+    maxWarps: 5 # Maximum number of warps allowed
+    warpCooldown: 30 # Cooldown in seconds between warp usages (default 0 means no cooldown)
