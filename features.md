@@ -8,6 +8,7 @@ A plugin designed to enhance town management and interaction in Minecraft server
 - Towns can claim chunks using a command or GUI.
 - Only members of a town can build or interact within claimed chunks.
 - Admins can override or edit claims.
+- Mayors will gain x amount of claim chunks per hour
 
 ### 🏦 Town Bank (GUI-Based)
 - GUI interface for depositing and withdrawing currency.
