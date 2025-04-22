@@ -105,3 +105,19 @@ A plugin designed to enhance town management and interaction in Minecraft server
 | `/town admin promote <player>`           | Promote a player regardless of role restrictions                            | `townpal.admin.promote`      |
 | `/town admin demote <player>`            | Demote a player regardless of role restrictions                             | `townpal.admin.demote`       |
 | `/town reload`                     | Reload the plugin and all configurations                                    | `townpal.admin.reload`       |
+
+## ⛔ Placeholders
+
+These placeholders are compatible with **PlaceholderAPI**.
+
+| Placeholder                    | Description                                                  | Example Output              |
+|----------------------------------|--------------------------------------------------------------|-----------------------------|
+| `%town_name%`                   | The name of the town                                          | `StoneHaven`                |
+| `%town_owner%`                  | The owner of the town (mayor)                                 | `Kommandant`                |
+| `%town_members%`                | List of members in the town                                   | `Kommandant, Player123, Alex`|
+| `%town_balance%`                | The current balance in the town's bank                        | `1000`                      |
+| `%town_claims%`                 | Number of chunks claimed by the town                          | `5`                         |
+| `%town_avaiable_claims%`                 | Number of chunks can be claimed by the town                          | `15`        |
+| `%town_members_online%`         | Number of members currently online in the town                | `3`                         |
+| `%town_members_max%`            | The maximum number of members allowed in the town             | `50`                        |
+| `%town_members_offline%`        | Number of members currently offline in the town               | `47`                        |
