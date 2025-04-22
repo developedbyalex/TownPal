@@ -1,0 +1,30 @@
+# /$$$$$$$$                                /$$$$$$$           /$$
+#|__  $$__/                               | $$__  $$         | $$
+#   | $$  /$$$$$$  /$$  /$$  /$$ /$$$$$$$ | $$  \ $$ /$$$$$$ | $$
+#   | $$ /$$__  $$| $$ | $$ | $$| $$__  $$| $$$$$$$/|____  $$| $$
+#   | $$| $$  \ $$| $$ | $$ | $$| $$  \ $$| $$____/  /$$$$$$$| $$
+#   | $$| $$  | $$| $$ | $$ | $$| $$  | $$| $$      /$$__  $$| $$
+#   | $$|  $$$$$$/|  $$$$$/$$$$/| $$  | $$| $$     |  $$$$$$$| $$
+#   |__/ \______/  \_____/\___/ |__/  |__/|__/      \_______/|__/
+#                                                                
+
+mainSettings:
+  prefix: "<b><gradient:#F4C4F3:#FC67FA>TownPal</gradient></b>"
+  inviteTimeout: 60 # in seconds
+  townNameCharacterLimit: 15
+  logTownInventory: true # This will create a log file for everything that happens for town inventories
+  logTownBank: true # This will create a log file for everything that happens for town banks
+
+bank:
+  maxAmount: -1 # use -1 for unlimited amount
+  startingAmount: 10 # The amount of money the town will start with
+
+allies:
+  enabled: True # This will allow use of the ally commands
+  broadcast: True # This will broadcast to chat when a town allies with another town
+  maxAllies: 5 # Use -1 for unlimited
+
+enemy:
+  enabled: True
+  broadcast: True
+  maxEnemies: -1 
