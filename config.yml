@@ -70,3 +70,8 @@ upgrades:
     cost: 300 # Cost of unlocking warps
     maxWarps: 5 # Maximum number of warps allowed
     warpCooldown: 30 # Cooldown in seconds between warp usages (default 0 means no cooldown)
+
+upkeep:
+  enabled: true # Toggle the upkeep system on or off
+  intervalHours: 24 # Number of hours between each upkeep payment
+  cost: 100.0 # Amount to be paid every interval
