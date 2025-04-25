@@ -75,3 +75,11 @@ upkeep:
   enabled: true # Toggle the upkeep system on or off
   intervalHours: 24 # Number of hours between each upkeep payment
   cost: 100.0 # Amount to be paid every interval
+
+townChat:
+  enabled: true # Toggle the town chat system on or off
+  format: "&f[&bTownChat&f] &8(%role%&8) &7%player%: &f%message%"
+  roleColors:
+    mayor: "&c"
+    officer: "&c"
+    member: "&7"
