@@ -30,4 +30,38 @@ Deposits succeed even if the player has a balance of $0.
 ---
 
 ### 6. `/t` command randomly displays "Target is offline"  
-Running `/t` without arguments sometimes returns “Target is offline” unexpectedly. Should return something like Unkown command or a help message
+Running `/t` without arguments sometimes returns “Target is offline” unexpectedly.
+
+---
+
+### 7. `/town disband` says "Town has been disbanded" but also shows "An error occurred"  
+The command executes, but an error message appears even though the town is removed.
+
+---
+
+### 8. `/town invite` lists selectors like `@a`, `@e`, `@p`, `@r`  
+Only real online players should be shown in the invite list.
+
+---
+
+### 9. `/town sethome` teleports to wrong position  
+It sets the location, but teleports the player to the lower corner of the block. It should preserve the player’s exact location and facing direction.
+
+---
+
+### 10. Town warps are missing from the upgrades menu  
+There’s no option to view or manage town warps through the in-game upgrades menu.
+
+---
+
+# 🌟 Feature Suggestions
+
+---
+
+### A. `/town view` command to show claimed chunks with particles  
+Would help visualize chunk borders claimed by the town.
+
+---
+
+### B. Show messages when entering or leaving claimed land  
+Add a message like "Now entering [TownName]" or "Leaving [TownName]" for better immersion.
