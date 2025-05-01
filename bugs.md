@@ -28,3 +28,6 @@ After switching to town chat mode, messages typed do not appear in chat.
 Deposits succeed even if the player has a balance of $0.
 
 ---
+
+### 6. `/t` command randomly displays "Target is offline"  
+Running `/t` without arguments sometimes returns “Target is offline” unexpectedly. Should return something like Unkown command or a help message
