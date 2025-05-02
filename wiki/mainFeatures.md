@@ -78,7 +78,6 @@ A plugin designed to enhance town management and interaction in Minecraft server
 | `/town withdraw <amt>`   | Withdraw money from the town bank            | `townpal.bank.withdraw`    |
 | `/town upgrade`          | Open the upgrade GUI                         | `townpal.upgrade`          |
 | `/town info`             | View town info                               | `townpal.info`             |
-| `/town map`              | View nearby claimed chunks                   | `townpal.map`              |
 | `/town inv`              | Open the shared inventory                    | `townpal.inv`              |
 | `/town ally <town>`      | Ally with another town                       | `townpal.ally`             |
 | `/town enemy <town>`     | Mark another town as enemy                   | `townpal.enemy`            |
