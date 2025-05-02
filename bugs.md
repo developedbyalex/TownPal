@@ -4,64 +4,55 @@ This file contains a list of known bugs found during testing of the TownPal plug
 
 ---
 
-### 1. `/town create` should require a `<name>` argument  
-Currently, the command can be run without specifying a town name.
+### 1. No names are tab-completable in `/t invite`  
+No player names appear when trying to tab-complete the invite command.
 
 ---
 
-### 2. Currency formatting does not include commas and shows `.00`  
-Currency values should be displayed like `$1,000` instead of `$1000.00`.
+### 2. `/town promote` does not provide tab-completable ranks  
+Ranks should appear when tab-completing the command.
 
 ---
 
-### 3. TownChat does not change the chat format  
-Enabling TownChat does not visibly alter how messages appear.
+### 3. Promoting or demoting a player does not notify town members  
+There should be a broadcast message to all online town members when a user is promoted or demoted.
 
 ---
 
-### 4. Messages disappear when using `/town changechat town`  
-After switching to town chat mode, messages typed do not appear in chat.
+### 4. Balance is still not formatted  
+Currency should be formatted with commas (e.g., `$1,000`, `$10,000`) and without `.00`.
 
 ---
 
-### 5. Players can deposit money into the bank without having sufficient funds  
-Deposits succeed even if the player has a balance of $0.
+### 5. `/town chat` should allow an optional message  
+Allow sending a message directly using `/town chat [message]`.
 
 ---
 
-### 6. `/t` command randomly displays "Target is offline"  
-Running `/t` without arguments sometimes returns “Target is offline” unexpectedly.
+### 6. `/town changechat` does not show tab-completable options  
+All valid chat types should appear when tab-completing.
 
 ---
 
-### 7. `/town disband` says "Town has been disbanded" but also shows "An error occurred"  
-The command executes, but an error message appears even though the town is removed.
+### 7. Commands only return "missing-arguments"  
+Instead, show full usage information for the command.
 
 ---
 
-### 8. `/town invite` lists selectors like `@a`, `@e`, `@p`, `@r`  
-Only real online players should be shown in the invite list.
+### 8. Leaving a town does not notify other town members  
+There should be a message broadcast to the town when a user leaves.
 
 ---
 
-### 9. `/town sethome` teleports to wrong position  
-It sets the location, but teleports the player to the lower corner of the block. It should preserve the player’s exact location and facing direction.
+### 9. `/town inv` removes all items after they are added  
+Items disappear from the inventory GUI after being placed.
 
 ---
 
-### 10. Town warps are missing from the upgrades menu  
-There’s no option to view or manage town warps through the in-game upgrades menu.
+### 10. Kicking a user does not notify the town or the kicked player  
+There should be messages to all town members and the kicked player when this happens.
 
 ---
 
-# 🌟 Feature Suggestions
-
----
-
-### A. `/town view` command to show claimed chunks with particles  
-Would help visualize chunk borders claimed by the town.
-
----
-
-### B. Show messages when entering or leaving claimed land  
-Add a message like "Now entering [TownName]" or "Leaving [TownName]" for better immersion.
+### 11. `/town togglechat` does not return the correct chat format  
+Messages sent using town chat do not appear in the expected format.
