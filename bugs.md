@@ -56,3 +56,13 @@ There should be messages to all town members and the kicked player when this hap
 
 ### 11. `/town togglechat` does not return the correct chat format  
 Messages sent using town chat do not appear in the expected format.
+
+---
+
+### 12. Enemy is in your claim error
+This might be my fault for how it's explained in the docs, but it should only show that message if the town are enemies with them.
+
+---
+
+### 13. Message
+It would also be nice if a user that isn't in the town tries to break something, it displays them a message something like %prefix% You are unable to break in %townName%
