@@ -40,7 +40,7 @@ Instead, show full usage information for the command.
 ---
 
 ### 8. Leaving a town does not notify other town members  
-There should be a message broadcast to the town when a user leaves.
+There should be a message broadcast to the town when a user /t leaves.
 
 ---
 
