@@ -123,7 +123,7 @@ These placeholders are compatible with **PlaceholderAPI**.
 | `%town_members%`                | List of members in the town                                   | `Kommandant, Player123, Alex`|
 | `%town_balance%`                | The current balance in the town's bank                        | `1000`                      |
 | `%town_claims%`                 | Number of chunks claimed by the town                          | `5`                         |
-| `%town_avaiable_claims%`                 | Number of chunks can be claimed by the town                          | `15`        |
+| `%town_available_claims%`                 | Number of chunks can be claimed by the town                          | `15`        |
 | `%town_members_online%`         | Number of members currently online in the town                | `3`                         |
 | `%town_members_max%`            | The maximum number of members allowed in the town             | `50`                        |
 | `%town_members_offline%`        | Number of members currently offline in the town               | `47`                        |
