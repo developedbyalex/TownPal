@@ -80,7 +80,5 @@ This command needs confirmation messages to indicate the action was successful.
 
 ---
 
----
-
 ### 16. Placeholders do not update for other users when someone joins a town  
 Town-related placeholders (e.g., in scoreboards or nametags) are not updated for other users when a new member joins a town.
