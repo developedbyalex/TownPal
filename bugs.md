@@ -40,7 +40,7 @@ Instead, show full usage information for the command.
 ---
 
 ### 8. Leaving a town does not notify other town members  
-There should be a message broadcast to the town when a user /t leaves.
+There should be a message broadcast to the town when a user `/t leaves`.
 
 ---
 
@@ -59,10 +59,21 @@ Messages sent using town chat do not appear in the expected format.
 
 ---
 
-### 12. Enemy is in your claim error
-This might be my fault for how it's explained in the docs, but it should only show that message if the town are enemies with them.
+### 12. Enemy is in your claim error  
+This might be due to unclear documentation, but the message should only show if the towns are actually enemies.
 
 ---
 
-### 13. Message
-It would also be nice if a user that isn't in the town tries to break something, it displays them a message something like %prefix% You are unable to break in %townName%
+### 13. Block break denial message for outsiders  
+If a non-member tries to break blocks in a town, it should show a message like:  
+`%prefix% You are unable to break in %townName%`
+
+---
+
+### 14. `/town admin unclaim [town]` does not unclaim current chunk  
+The command should unclaim the chunk the executing user is standing in but currently does not.
+
+---
+
+### 15. `/town admin promote` lacks feedback  
+This command needs confirmation messages to indicate the action was successful.
