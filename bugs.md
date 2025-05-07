@@ -21,3 +21,20 @@ The message also needs to be changed from "Surrenered war with Town <town>" to `
 ### 4. Usage on commands
 Show usages like this for all commands
 ![image](https://github.com/user-attachments/assets/b9a98a71-e68a-4500-a0f8-07b178be9fa4)
+
+### 5. Placeholders
+```
+[02:27:40 INFO]: [ChatControl] -------------------------------------------------------------------------------------------
+[02:27:40 INFO]: [ChatControl]  Faulty extension class ru.rusekh.townpal.holder.PlaceholderHook
+[02:27:40 INFO]: [ChatControl]  failed to replace 'name'
+[02:27:40 INFO]: [ChatControl]  
+[02:27:40 INFO]: [ChatControl]  THIS IS NOT CAUSED BY US, BUT RATHER BY THE
+[02:27:40 INFO]: [ChatControl]  PLACEHOLDERAPI EXTENSION WHICH DOES NOT
+[02:27:40 INFO]: [ChatControl]  FOLLOW THE PARENT METHOD'S NULLABILITY.
+[02:27:40 INFO]: [ChatControl]  
+[02:27:40 INFO]: [ChatControl]  Alert their developers to account for null
+[02:27:40 INFO]: [ChatControl]  OfflinePlayer parameter as specified in
+[02:27:40 INFO]: [ChatControl]  PlaceholderAPI API docs. Printing the error
+[02:27:40 INFO]: [ChatControl]  below and returning empty value.
+[02:27:40 INFO]: [ChatControl] -------------------------------------------------------------------------------------------
+```
