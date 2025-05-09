@@ -14,4 +14,4 @@ If I withdraw or add money in /t bank I get:
 ![image](https://github.com/user-attachments/assets/56d6a2fe-46bf-44e7-bece-e1ced6c1e0a6)
 
 ### 4. Town view and leaving a clan
-If you have /t view on and then you leave a clan, it remains on and you can't turn it off. If you leave a clan, automatically disable /t view
+If you have /t view on and then you leave a clan, it remains on and you can't turn it off. If you leave a clan, automatically disable /t view. /t view can still be used if you're not in a clan. This is so you can see if you're building next to another town.
