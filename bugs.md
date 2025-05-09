@@ -3,38 +3,12 @@
 This file contains a list of known bugs found during testing of the TownPal plugin.
 
 ---
-### 1. `/t view` should show all claims  
-- The command should display **all player claims**, not just your own.  
-- Enemy claims should be red dust
-- Your own claim should be green dust
-- Ally claims should be blue dust
-- This should all be configurable in the config.yml
+### 1. `/t view` is showing no claims at all now
+0 claims are being shown. No particles, nothing.
 
 ### 2. Kicked when using `/t bank`
 If I withdraw or add money in /t bank I get:
-![image](https://github.com/user-attachments/assets/67c9c723-931d-4f88-aa34-da5e9adf8b5c)
+![image](https://github.com/user-attachments/assets/6859ef39-f0f1-49fa-852a-5bc09f6998be)
 
-### 3. How to handle town enemies
-If a town enemies another town, make sure that they are both listed as each others enemies. The other town should be able to surrender too.
-The message also needs to be changed from "Surrenered war with Town <town>" to `<townName> has surrended against <otherTownName>` dont show that to the user who types the command. To the town that types the command show: `You have surrended the war with <townName>`
-
-### 4. Usage on commands
-Show usages like this for all commands
-![image](https://github.com/user-attachments/assets/b9a98a71-e68a-4500-a0f8-07b178be9fa4)
-
-### 5. Placeholders
-```
-[02:27:40 INFO]: [ChatControl] -------------------------------------------------------------------------------------------
-[02:27:40 INFO]: [ChatControl]  Faulty extension class ru.rusekh.townpal.holder.PlaceholderHook
-[02:27:40 INFO]: [ChatControl]  failed to replace 'name'
-[02:27:40 INFO]: [ChatControl]  
-[02:27:40 INFO]: [ChatControl]  THIS IS NOT CAUSED BY US, BUT RATHER BY THE
-[02:27:40 INFO]: [ChatControl]  PLACEHOLDERAPI EXTENSION WHICH DOES NOT
-[02:27:40 INFO]: [ChatControl]  FOLLOW THE PARENT METHOD'S NULLABILITY.
-[02:27:40 INFO]: [ChatControl]  
-[02:27:40 INFO]: [ChatControl]  Alert their developers to account for null
-[02:27:40 INFO]: [ChatControl]  OfflinePlayer parameter as specified in
-[02:27:40 INFO]: [ChatControl]  PlaceholderAPI API docs. Printing the error
-[02:27:40 INFO]: [ChatControl]  below and returning empty value.
-[02:27:40 INFO]: [ChatControl] -------------------------------------------------------------------------------------------
-```
+### 3. missing:target error
+![image](https://github.com/user-attachments/assets/56d6a2fe-46bf-44e7-bece-e1ced6c1e0a6)
