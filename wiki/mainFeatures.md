@@ -117,7 +117,7 @@ These placeholders are compatible with **PlaceholderAPI**.
 
 | Placeholder                    | Description                                                  | Example Output              |
 |----------------------------------|--------------------------------------------------------------|-----------------------------|
-| `%town_name%`                   | The name of the town                                          | `StoneHaven`                |
+| `%town_townname%`                   | The name of the town                                          | `StoneHaven`                |
 | `%town_owner%`                  | The owner of the town (mayor)                                 | `Kommandant`                |
 | `%town_members%`                | List of members in the town                                   | `Kommandant, Player123, Alex`|
 | `%town_balance%`                | The current balance in the town's bank                        | `1000`                      |
