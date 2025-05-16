@@ -3,15 +3,25 @@
 This file contains a list of known bugs found during testing of the TownPal plugin.
 
 ---
-### 1. `/t view` is showing no claims at all now
-0 claims are being shown. No particles, nothing.
+### 1. The `/t view` command doesn't show the entire chunk.
+It only shows the side of the chunk you're looking at.
 
-### 2. Kicked when using `/t bank`
-If I withdraw or add money in /t bank I get:
-![image](https://github.com/user-attachments/assets/6859ef39-f0f1-49fa-852a-5bc09f6998be)
+### 2. If a user leaves and /t view is on then it stops it being shown for everyone
+Title.
 
-### 3. missing:target error
-![image](https://github.com/user-attachments/assets/56d6a2fe-46bf-44e7-bece-e1ced6c1e0a6)
+### 3. If you're not using CMI, you still get kicked.
+- When using normal Vault, it still kicks you unexpectedly.
+- ![image](https://github.com/user-attachments/assets/b640e508-9278-4122-b605-15278edb2751)
 
-### 4. Town view and leaving a clan
-If you have /t view on and then you leave a clan, it remains on and you can't turn it off. If you leave a clan, automatically disable /t view. /t view can still be used if you're not in a clan. This is so you can see if you're building next to another town.
+
+### 4.Particle reload issue
+- Changing the particle effect for `/t view` and then reloading does not seem to apply the change (all the time).
+
+### 5. Town name validation
+- Town names currently allow spaces.
+- Need to enforce a rule so town names **cannot** have spaces.
+
+### 6. Ally land claim view color bug
+- When land is claimed with an ally, their view color is correct initially.
+- However, when standing in the claimed land, the view color changes incorrectly.
+- View discord to see it
