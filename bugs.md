@@ -4,7 +4,7 @@ This file contains a list of known bugs found during testing of the TownPal plug
 
 ---
 
-### 1. `/t admin delete <townName` doesn't work. 
+### 1. `/t admin delete <townName>` doesn't work. 
 ```
 [22:44:30 INFO]: Rooftop issued server command: /t admin delete test
 [22:44:31 WARN]: [TownPal] Plugin TownPal vfinal generated an exception while executing task 212
